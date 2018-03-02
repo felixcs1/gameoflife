@@ -164,9 +164,11 @@ class game_of_life(object):
         """ Kill the cell at position i, j """
         self.board[i][j] = 0
 
+
     def create_life(self, i, j):
         """ Give life to the cell at position i, j"""
         self.board[i][j] = 1
+
 
     def display_board(self):
         """
@@ -174,10 +176,9 @@ class game_of_life(object):
         """
         for row in self.board:
             for cell in row:
-
                 print(" ", cell, " | ", end=""),
-
             print()
+
 
     def draw_board(self, iteration):
 
