@@ -198,10 +198,10 @@ class game_of_life(object):
 
 #############################################################################
 
-# *** PLEASE ENTER A STARTING BOARDD as a 2D ARRAY ***, 
+# *** PLEASE ENTER A STARTING BOARD as a 2D ARRAY ***, 
 # 1 = Alive cells, 0 = Dead cells
 # e.g the test case given in the question sheet is: [[0,0,0], [1,1,1], [0,0,0]]
-# P.S [[0,1,0,1,0,1,0,1,0,1,0],[1,0,1,0,1,0,1,0,1,0,1], [0,1,0,1,0,1,0,1,0,1,0], [1,0,1,0,1,0,1,0,1,0,1], [0,1,0,1,0,1,0,1,0,1,0]]
+# Example of a test board [[0,1,0,1,0,1,0,1,0,1,0],[1,0,1,0,1,0,1,0,1,0,1], [0,1,0,1,0,1,0,1,0,1,0], [1,0,1,0,1,0,1,0,1,0,1], [0,1,0,1,0,1,0,1,0,1,0]]
 
 #############---Edit this line to change the starting board---##############
 STARTING_BOARD = [[0,0,0], [1,1,1], [0,0,0]]
