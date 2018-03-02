@@ -4,14 +4,16 @@ from matplotlib import colors as c
 
 
 class game_of_life(object):
-    
+
     """
         Class containing the functions to run the Game of Life
 
         To test with different starting boards please specify a
-        starting board at the bottom of this file where indicated
+        starting board at the bottom of this file where indicated 
+
+        To change the time between iterations please edit the draw_board() function
+        where indicated (current set as 2 seconds)
     """
-    
 
     def __init__(self, intial_grid):
         # The intial board state is passed to the class, this 
@@ -189,7 +191,7 @@ class game_of_life(object):
         plt.title("Iteration #" + str(iteration))
         plt.draw()
 
-        ###### Set time between iterations ######
+        ###### Set time between iterations here ######
         plt.pause(2)
         #########################################
 
