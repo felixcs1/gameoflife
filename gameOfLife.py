@@ -1,6 +1,8 @@
 import copy
 import matplotlib.pyplot as plt
 from matplotlib import colors as c
+import warnings
+warnings.filterwarnings("ignore") # supress matplotlib warning for cleaner output
 
 
 class game_of_life(object):
